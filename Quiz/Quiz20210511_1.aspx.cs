@@ -8,7 +8,7 @@ using System.Web.UI.WebControls;
 namespace Quiz {
     public partial class Quiz20210511_1 : System.Web.UI.Page {
         protected void Page_Load(object sender, EventArgs e) {
-
+            Response.Write("id=" + Session["ID"] + "<br /> name=" + Session["NAME"]);
         }
     }
 }
